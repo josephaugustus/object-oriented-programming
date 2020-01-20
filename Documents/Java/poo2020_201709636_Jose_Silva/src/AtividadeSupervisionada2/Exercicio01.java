@@ -2,8 +2,10 @@
 package AtividadeSupervisionada2;
 import java.util.Scanner;
 
+//Desenvolva um programa em java que leia o nome e a idade de 3 pessoas e mostre o
+//nome da pessoa mais velha e o nome da pessoa mais nova.
 
-public class Idade {
+public class Exercicio01 {
 
     
     public static void main(String[] args) {
@@ -39,7 +41,7 @@ public class Idade {
         
         
         System.out.println("Nome da pessoa mais nova: " + nomeMenorIdade);
-        System.out.println("Idade da pessoa mais: " + menorIdade);
+        System.out.println("Idade da pessoa mais nova: " + menorIdade);
         System.out.println("Nome da pessoa mais velha: " + nomeMaiorIdade);
         System.out.println("Idade da pessoa mais velha: " + maiorIdade);
     
