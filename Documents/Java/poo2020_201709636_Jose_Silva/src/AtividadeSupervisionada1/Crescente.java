@@ -2,7 +2,7 @@
 package AtividadeSupervisionada1;
 import java.util.Scanner;
 
-public class Exercicio02 {
+public class Crescente {
     public static void main(String[] args) {
 
         int numero1;
