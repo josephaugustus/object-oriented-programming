@@ -15,6 +15,7 @@ import javax.swing.JOptionPane;
 //a) a maior idade dos habitantes;
 //b) porcentagem de indivíduos do sexo feminino cuja idade esteja entre 18 e 35 anos,
 //inclusive, e que tenham olhos verdes e cabelos louros
+/
 
 public class Exercicio03 {
     
