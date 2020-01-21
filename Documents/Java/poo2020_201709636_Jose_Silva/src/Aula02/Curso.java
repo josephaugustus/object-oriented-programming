@@ -3,6 +3,7 @@ package Aula02;
 
 
 public class Curso {
+    
     String nome; 
     String area;
     String tipo;

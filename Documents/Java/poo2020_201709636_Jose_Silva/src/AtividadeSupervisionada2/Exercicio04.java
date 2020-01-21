@@ -12,7 +12,6 @@ import java.util.Scanner;
 //acima de 601 40% do valor do saldo médio
 
 public class Exercicio04 {
-    
 
     public static void main(String[] args) {
         int saldo;

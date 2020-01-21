@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 public class Exercicio01 {
 
-    
     public static void main(String[] args) {
         
         String[] nome = new String[3];
