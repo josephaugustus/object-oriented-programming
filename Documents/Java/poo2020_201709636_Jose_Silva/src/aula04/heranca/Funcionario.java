@@ -7,7 +7,7 @@ public class Funcionario extends PessoaFisica {
     private double salario;
 
     public Funcionario(String nome, String endereco, String telefone,
-            String cpf, String estadoCivil,
+            String cpf, String estadoCivil, String sexo,
             int matricula, String cargo, double salario) {
 
         super(nome, endereco, telefone, cpf, estadoCivil, sexo);
