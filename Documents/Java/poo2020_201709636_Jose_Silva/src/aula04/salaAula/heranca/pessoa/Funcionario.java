@@ -1,4 +1,4 @@
-package aula04.heranca;
+package aula04.salaAula.heranca.pessoa;
 
 public class Funcionario extends PessoaFisica {
 

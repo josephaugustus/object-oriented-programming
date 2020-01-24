@@ -1,4 +1,4 @@
-package atividadeSupervisionada1;
+package aula01.salaAula.as1c;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
 //Os nomes só podem ter caracteres alfabéticos e o telefone só numéricos. Use
 //Character.isDigit().
 
-public class Exercicio04 {
+public class exercicio04 {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package atividadeSupervisionada2;
+package aula02.salaAula.as2b;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
 //de 401 a 600 30% do valor do saldo médio
 //acima de 601 40% do valor do saldo médio
 
-public class Exercicio04 {
+public class exercicio04 {
 
     public static void main(String[] args) {
         int saldo;

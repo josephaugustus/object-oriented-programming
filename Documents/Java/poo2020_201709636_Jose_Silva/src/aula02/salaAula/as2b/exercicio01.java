@@ -1,11 +1,11 @@
-package atividadeSupervisionada2;
+package aula02.salaAula.as2b;
 
 import java.util.Scanner;
 
 //Desenvolva um programa em java que leia o nome e a idade de 3 pessoas e mostre o
 //nome da pessoa mais velha e o nome da pessoa mais nova.
 
-public class Exercicio01 {
+public class exercicio01 {
 
     public static void main(String[] args) {
 

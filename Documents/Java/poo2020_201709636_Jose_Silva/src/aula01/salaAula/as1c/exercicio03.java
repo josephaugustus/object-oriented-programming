@@ -1,4 +1,4 @@
-package atividadeSupervisionada1;
+package aula01.salaAula.as1c;;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
 //Mostrar o vetor em ordem crescente e em ordem decrescente. Solicitar um
 //novo valor do usuário e informar se existe ou não no vetor e em que posição.
 
-public class Exercicio03 {
+public class exercicio03 {
 
     public static void main(String[] args) {
 

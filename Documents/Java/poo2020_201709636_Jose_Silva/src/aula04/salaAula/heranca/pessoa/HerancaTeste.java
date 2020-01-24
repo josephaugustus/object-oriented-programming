@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula04.heranca;
+package aula04.salaAula.heranca.pessoa;
 
 /**
  *

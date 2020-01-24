@@ -1,4 +1,4 @@
-package atividadeSupervisionada1;
+package aula01.salaAula.as1c;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
 // Os maiores que a média (nomes e salários)
 // Os menores que a média (nomes e salários)
 
-public class Exercicio05 {
+public class exercicio05 {
 
     public static void main(String[] args) {
 

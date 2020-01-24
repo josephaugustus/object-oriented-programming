@@ -1,4 +1,4 @@
-package atividadeSupervisionada2;
+package aula02.salaAula.as2b;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
 //a percentagem do distribuidor seja de 28% e os impostos de 45%, escreva um algoritmo
 //que leia o custo de fábrica de um carro e escreva o custo ao consumidor.
 
-public class Exercicio02 {
+public class exercicio02 {
 
     public static void main(String[] args) {
 

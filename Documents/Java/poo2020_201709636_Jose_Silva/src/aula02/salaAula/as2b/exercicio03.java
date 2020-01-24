@@ -1,4 +1,4 @@
-package atividadeSupervisionada2;
+package aula02.salaAula.as2b;
 
 import java.util.Scanner;
 import javax.swing.JOptionPane;
@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
 //b) porcentagem de indivíduos do sexo feminino cuja idade esteja entre 18 e 35 anos,
 //inclusive, e que tenham olhos verdes e cabelos louros
 
-public class Exercicio03 {
+public class exercicio03 {
 
     public static void main(String[] args) {
         int populacao;
