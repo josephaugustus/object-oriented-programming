@@ -1,8 +1,11 @@
-
-package AtividadeSupervisionada1;
+package aula01.salaAula.as1c;
 import java.util.Scanner;
 
-public class Crescente {
+//Um programa que receba 3 números (X,Y e Z) do usuário e mostre-os em ordem
+//crescente.
+
+public class exercicio02 {
+    
     public static void main(String[] args) {
 
         int numero1;
