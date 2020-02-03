@@ -8,6 +8,7 @@ public class Teste {
     }
 
     public static void main(String[] args) {
+
         Object[] lista = new Object[3];
 
         lista[0] = new Anfibio("Salamandra");
@@ -17,5 +18,7 @@ public class Teste {
         for (int i = 0; i < 3; i++) {
             apresentar((Animal) lista[i]);
         }
+
     }
+
 }

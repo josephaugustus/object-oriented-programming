@@ -1,8 +1,6 @@
-package aula09.salaAula;
+package aula09.salaaula;
 
 public interface IExemplo {
-
-    public void metodo1();
-
-    public void metodo2();
+	void metodo1();
+	String metodo2();
 }

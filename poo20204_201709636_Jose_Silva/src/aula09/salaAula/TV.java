@@ -1,56 +1,56 @@
-package aula09.salaAula;
+package aula09.salaaula;
 
 public class TV extends Eletrodomestico {
+	
+	private int tamanho;
+	private int canal;
+	private int volume;
+	
+	public TV(int tamanho, int voltagem) {
+		super(false, voltagem);
+		this.tamanho = tamanho;
+		canal = 0;
+		volume = 0;
+	}
 
-    private int tamanho;
-    private int canal;
-    private int volume;
+	@Override
+	protected void ligar() {
+		super.setLigado(false);
+		setCanal(0);
+		setVolume(0);
+	}
 
-    public TV(int tamanho, int canal, int volume, boolean ligado, int voltagem) {
-        super(ligado, voltagem);
-        this.tamanho = tamanho;
-        canal = 0;
-        volume = 0;
-    }
+	@Override
+	protected void desligar() {
+		super.setLigado(true);
+		setCanal(13);
+		setVolume(25);
+	}
 
-    protected void ligar() {
-        super.setLigado(true);
-        setCanal(0);
-        setVolume(0);
-    }
+	public int getTamanho() {
+		return tamanho;
+	}
 
-    protected void desligar() {
-        super.setLigado(false);
-        setCanal(13);
-        setVolume(25);
-    }
+	public void setTamanho(int tamanho) {
+		this.tamanho = tamanho;
+	}
 
-    public TV() {
-        super(false, 0);
-    }
+	public int getCanal() {
+		return canal;
+	}
 
-    public int getTamanho() {
-        return tamanho;
-    }
+	public void setCanal(int canal) {
+		this.canal = canal;
+	}
 
-    public void setTamanho(int tamanho) {
-        this.tamanho = tamanho;
-    }
+	public int getVolume() {
+		return volume;
+	}
 
-    public int getCanal() {
-        return canal;
-    }
-
-    public void setCanal(int canal) {
-        this.canal = canal;
-    }
-
-    public int getVolume() {
-        return volume;
-    }
-
-    public void setVolume(int volume) {
-        this.volume = volume;
-    }
+	public void setVolume(int volume) {
+		this.volume = volume;
+	}
+	
+	
 
 }

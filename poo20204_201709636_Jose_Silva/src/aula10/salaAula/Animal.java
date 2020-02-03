@@ -10,11 +10,7 @@ public class Animal {
         this.nome = nome;
     }
 
-    public Animal() {
-        this.nome = "anonimo";
-    }
-    
-     public String getNome() {
+    public String getNome() {
         return nome;
     }
 
@@ -24,6 +20,7 @@ public class Animal {
     }
 
     public void mover(int x, int y) {
-        System.out.println("Não sei mover");
+        System.out.println("Não sei me mover");
     }
+
 }

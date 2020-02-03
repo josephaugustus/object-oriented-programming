@@ -4,8 +4,7 @@ public class MundoAnimal {
 
     public static void main(String[] args) {
 
-        Animal reino[];
-        reino = new Animal[3];
+        Animal[] reino = new Animal[3];
 
         reino[0] = new Anfibio("Salamandra");
         reino[1] = new Ave("Quero-quero");
@@ -17,18 +16,14 @@ public class MundoAnimal {
             if (reino[i] instanceof Peixe) {
                 ((Peixe) reino[i]).nadar();
             } else {
-
                 reino[i].mover(10, 10);
             }
         }
 
-//        for (int i = 0; i < 3; i++) {
-//            reino[i].mover(10, 10);
-//        }
-//            
-//        foreach
-//        for (Animal a : reino) {
-//            a.mover(10, 10);
-//        }
+        /*
+		for(Animal a : reino) {
+			a.mover(10, 10);
+		}*/
     }
+
 }

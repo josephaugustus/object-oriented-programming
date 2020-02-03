@@ -2,8 +2,10 @@ package aula09.salaAula;
 
 public class ClasseConcreta extends ClasseAbstrata {
 
+    @Override
     public void metodoAbstrato() {
-        System.out.println("Implementação do método Abstrato na Classe: " + this.getClass().getSimpleName());
+        System.out.println("Implementação do método abstrato na classe: "
+                + this.getClass().getSimpleName());
     }
 
     public static void main(String[] args) {
@@ -11,4 +13,5 @@ public class ClasseConcreta extends ClasseAbstrata {
         cc.metodoAbstrato();
         cc.metodoConcreto();
     }
+
 }

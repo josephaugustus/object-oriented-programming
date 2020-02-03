@@ -8,4 +8,5 @@ public class Gerente extends Funcionario {
         double b = salario * 0.15;
         return b;
     }
+
 }

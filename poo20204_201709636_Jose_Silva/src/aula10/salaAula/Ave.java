@@ -8,7 +8,6 @@ public class Ave extends Animal {
 
     public void mover(int x, int y) {
         setCoordenadas(x, y);
-
         System.out.println("Movimento da Ave " + this.getNome());
     }
 
