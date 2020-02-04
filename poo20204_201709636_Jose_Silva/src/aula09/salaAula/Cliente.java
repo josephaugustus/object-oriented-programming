@@ -1,4 +1,4 @@
-package aula09.salaaula;
+package aula09.salaAula;
 
 public class Cliente {
 	

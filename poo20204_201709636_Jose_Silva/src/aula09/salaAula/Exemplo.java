@@ -1,4 +1,4 @@
-package aula09.salaaula;
+package aula09.salaAula;
 
 public class Exemplo extends ContaCorrente implements IExemplo, IExemplo2 {
 

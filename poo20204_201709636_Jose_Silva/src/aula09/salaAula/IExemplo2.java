@@ -1,4 +1,4 @@
-package aula09.salaaula;
+package aula09.salaAula;
 
 public interface IExemplo2 {
 	void metodo3();
