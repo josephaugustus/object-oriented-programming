@@ -1,5 +1,5 @@
 
-package aula03;
+package aula03.salaAula;
 
 public class Quadrado {
     

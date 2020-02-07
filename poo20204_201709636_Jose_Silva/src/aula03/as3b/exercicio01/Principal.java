@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package AtividadeSupervisionada03.Exercicio01;
+package aula03.as3b.exercicio01;
 
 
 public class Principal {

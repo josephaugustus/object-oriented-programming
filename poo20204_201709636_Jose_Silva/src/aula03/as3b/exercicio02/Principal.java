@@ -8,6 +8,7 @@ public class Principal {
         pessoa.armazenaPessoa("Carlos", 25, 1.90);
         pessoa.armazenaPessoa("Francisco", 17, 1.62);
         pessoa.armazenaPessoa("Maria", 34, 1.54);
+//        assertTrue(agenda.getListaPessoas().size() == 3)
         pessoa.removePessoa("Carlos");
         pessoa.imprimeAgenda();
 //      pessoa.imprimePessoa();

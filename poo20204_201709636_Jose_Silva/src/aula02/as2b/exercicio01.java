@@ -1,4 +1,4 @@
-package aula02.salaAula.as2b;
+package aula02.as2b;
 
 import java.util.Scanner;
 

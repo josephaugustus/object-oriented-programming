@@ -1,5 +1,5 @@
 
-package AtividadeSupervisionada03.Exercicio01;
+package aula03.as3b.exercicio01;
 import java.util.Scanner;
 
 public class Pessoa {

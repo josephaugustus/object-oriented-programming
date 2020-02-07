@@ -1,4 +1,4 @@
-package aula01.salaAula.as1c;
+package aula01.as1c;
 import java.util.Scanner;
 
 //Um programa que receba 3 números (X,Y e Z) do usuário e mostre-os em ordem

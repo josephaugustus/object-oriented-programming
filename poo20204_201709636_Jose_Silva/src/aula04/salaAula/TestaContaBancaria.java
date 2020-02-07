@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package aula04.herancaContaBancaria;
-import aula04.herancaContaBancaria.ContaBancaria;
-import aula04.herancaContaBancaria.Cliente;
+package aula04.salaAula;
+import aula04.salaAula.ContaBancaria;
+import aula04.salaAula.Cliente;
 import java.util.List;
 import java.util.ArrayList;
 

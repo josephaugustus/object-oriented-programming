@@ -1,4 +1,4 @@
-package aula04.herancaContaBancaria;
+package aula04.salaAula;
 
 public class Cliente {
 
