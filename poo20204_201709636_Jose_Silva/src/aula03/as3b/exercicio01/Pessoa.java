@@ -1,9 +1,10 @@
-
 package aula03.as3b.exercicio01;
+
+import java.util.Date;
 import java.util.Scanner;
 
 public class Pessoa {
-      
+
     private String nome;
     private DataNascimento dataNasc;
     private double altura;
@@ -11,48 +12,64 @@ public class Pessoa {
     Scanner sc = new Scanner(System.in);
 
     void setDados() {
-            System.out.println("Dados:\n\nNome: "+this.nome+"\nData de Nascimento: "
-                                            +this.dataNasc.dia+"/"+this.dataNasc.mes+"/"+this.dataNasc.ano+
-                                            "\nAltura: "+this.altura+"\nIdade: "+getIdade());
+        System.out.println("Dados:\n\nNome: " + this.nome + "\nData de Nascimento: "
+                + this.dataNasc.dia + "/" + this.dataNasc.mes + "/" + this.dataNasc.ano
+                + "\nAltura: " + this.altura + "\nIdade: " + getIdade());
 
     }
 
     public String getNome() {
-            this.nome = sc.next();
-            return this.nome;		
+        this.nome = sc.next();
+        return this.nome;
     }
 
     public DataNascimento getData() {
 
-            Pessoa temp = new Pessoa();
-            temp.dataNasc = new DataNascimento();
+        Pessoa temp = new Pessoa();
+        temp.dataNasc = new DataNascimento();
 
-            this.dataNasc = temp.dataNasc;
+        this.dataNasc = temp.dataNasc;
 
-            System.out.println("Dia: ");
-            this.dataNasc.dia = sc.nextInt();
-            System.out.println("Mes: ");
-            this.dataNasc.mes = sc.nextInt();
-            System.out.println("Ano: ");
-            this.dataNasc.ano = sc.nextInt();
+        System.out.println("Dia: ");
+        this.dataNasc.dia = sc.nextInt();
+        System.out.println("Mes: ");
+        this.dataNasc.mes = sc.nextInt();
+        System.out.println("Ano: ");
+        this.dataNasc.ano = sc.nextInt();
 
-            return this.dataNasc;
+        return this.dataNasc;
     }
 
     public double getAltura() {
-            return (this.altura = sc.nextDouble());
+        return (this.altura = sc.nextDouble());
     }
 
     public int getIdade() {
-            return (2020 - this.dataNasc.ano);
+        return (2020 - this.dataNasc.ano);
     }
 
     void getDados() {
-            System.out.println("Insira o nome: ");
-            this.getNome();
-            System.out.println("Insira a data de nascimento: ");
-            this.getData();
-            System.out.println("Insira sua altura: ");
-            this.getAltura();
+        System.out.println("Insira o nome: ");
+        this.getNome();
+        System.out.println("Insira a data de nascimento: ");
+        this.getData();
+        System.out.println("Insira sua altura: ");
+        this.getAltura();
+    }
+
+    void setNome(String nextLine) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void setDataNascimento(Date data) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void setAltura(double nextDouble) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    String exibirIdade() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
